@@ -219,7 +219,7 @@ abstract class PostModel extends Model
                     break;
 
                 case 'date':
-                    $value = $this->getAttribute($key) ?: (new Carbon())->toDateTimeString();
+                    $value = $this->getAttribute($key) ?: null;
                     break;
 
                 default:
