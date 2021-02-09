@@ -6,7 +6,7 @@
         "source": "https://github.com/jplhomer/fresa"
     },
     "require": {
-        "illuminate/support": "^5.4",
+        "illuminate/support": "^8.0",
         "nesbot/carbon": "^2.32"
     },
     "autoload": {
